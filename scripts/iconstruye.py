@@ -125,6 +125,7 @@ class botService:
         self.operation.renameFile("NdeCredito.xlsx")
         self.operation.sendEmail("NdeCredito", "Se adjunta el archivo asociado.")
         print("se envio: Notas Correccion")
+        self.operation.removeFile()
         
 
 
