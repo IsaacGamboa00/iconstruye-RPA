@@ -66,7 +66,7 @@ class Operation:
             print('no hay archivos para enviar')
         else:
             remitente = 'iconstruyemkingenieria@gmail.com'
-            destinatarios = ['suti.pruebas.bot@gmail.com','fvalenzuela@mkingenieria.cl']
+            destinatarios = ['suti.pruebas.bot@gmail.com']
             password = 'Suti0220*'
             mensaje = MIMEMultipart()
             mensaje['From'] = remitente
