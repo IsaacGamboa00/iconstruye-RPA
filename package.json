@@ -1,0 +1,24 @@
+{
+  "name": "rpa-iconstruye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desarrollosuti/iconstruye-rpa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desarrollosuti/iconstruye-rpa/issues"
+  },
+  "homepage": "https://github.com/desarrollosuti/iconstruye-rpa#readme",
+  "dependencies": {
+	"express": "^4.17.1",
+    "node-schedule": "^2.0.0",
+    "python-shell": "^3.0.0"
+  }
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="389560c6-d491-4ac9-998e-757f4986b152" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/scripts/iconstruye.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/iconstruye.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yj18K4QU2Wc7EITiZl5kaypxqg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ProyectTrust" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\isok_\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="389560c6-d491-4ac9-998e-757f4986b152" name="Default Changelist" comment="" />
+      <created>1632750022576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632750022576</updated>
+      <workItem from="1632750043895" duration="12339000" />
+      <workItem from="1632936840647" duration="1442000" />
+      <workItem from="1633101583716" duration="836000" />
+      <workItem from="1633181741075" duration="5228000" />
+      <workItem from="1633189719989" duration="20000" />
+      <workItem from="1633356422846" duration="5701000" />
+      <workItem from="1633401464645" duration="20000" />
+      <workItem from="1633443558888" duration="3947000" />
+      <workItem from="1633704514204" duration="853000" />
+      <workItem from="1634311603980" duration="4870000" />
+      <workItem from="1634658894260" duration="1171000" />
+      <workItem from="1634734995354" duration="7110000" />
+      <workItem from="1634829057631" duration="7955000" />
+      <workItem from="1634839721932" duration="45000" />
+      <workItem from="1634911658334" duration="1781000" />
+      <workItem from="1634913529134" duration="57000" />
+      <workItem from="1634913587910" duration="6000" />
+      <workItem from="1634913609616" duration="207000" />
+      <workItem from="1634916406069" duration="484000" />
+      <workItem from="1635006182019" duration="39000" />
+      <workItem from="1635268069802" duration="2314000" />
+      <workItem from="1635299021268" duration="4525000" />
+      <workItem from="1635616143661" duration="588000" />
+      <workItem from="1635654365429" duration="1235000" />
+      <workItem from="1635655776914" duration="1213000" />
+      <workItem from="1635939513851" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rpa_iconstruye$main.coverage" NAME="main Coverage Results" MODIFIED="1635655797714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1634839488001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
