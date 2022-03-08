@@ -32,6 +32,14 @@ class botService:
         self.initialDate = "01-01-2019"
         self.customers = [
             #ultimos clientes agregados
+             {
+                "customerID": "60333",
+                "nameFile": "M001003"
+            },
+             {
+                "customerID": "60532",
+                "nameFile": "E031004"
+            },
             {
                 "customerID": "55912",
                 "nameFile": "E011087"
@@ -131,24 +139,24 @@ class botService:
 
 
     def login(self, driver):
+        
         driver.get(self.url)
         sleep(5)
-        driver.find_element_by_class_name("js-open-login").click()
+        driver.find_element_by_xpath("//a[@title='Iniciar sesión']").click()
         sleep(5)
-        iframe = driver.find_element_by_class_name("login ")
+        iframe = driver.find_element_by_id("iframeTabLoginOld")
         driver.switch_to.frame(iframe)
         driver.find_element_by_id("txtUsuario").send_keys(self.username)
         driver.find_element_by_id("txtOrganizacion").send_keys(self.orgName)
         driver.find_element_by_id("txtClave").send_keys(self.password)
-        sleep(5)
-        driver.find_element_by_xpath("//input[@name='btnIngresar']").click()
+        driver.find_element_by_xpath("//input[@id='btnIngresar']").click()
         driver.switch_to.default_content()
 
     def downloadReportsSubContrato(self):
         with webdriver.Chrome(executable_path=self.pathDriver, chrome_options=self.driverOptions) as driver:
             try:
                 self.login(driver)
-                sleep(5)
+                sleep(20)
                 actions = ActionChains(driver)
                 target= driver.find_element_by_css_selector("div#ControlMenu1_sec table tr td:nth-of-type(7)")
                 actions.move_to_element(target).perform()
@@ -191,7 +199,7 @@ class botService:
         with webdriver.Chrome(executable_path=self.pathDriver, chrome_options=self.driverOptions) as driver:
             try:
                 self.login(driver)
-                sleep(5)
+                sleep(20)
                 actions = ActionChains(driver)
                 target= driver.find_element_by_css_selector("div#ControlMenu1_sec table tr td:nth-of-type(6)")
                 actions.move_to_element(target).perform()
@@ -229,7 +237,7 @@ class botService:
         with webdriver.Chrome(executable_path=self.pathDriver, chrome_options=self.driverOptions) as driver:
             try:
                 self.login(driver)
-                sleep(5)
+                sleep(20)
                 actions = ActionChains(driver)
                 target= driver.find_element_by_css_selector("div#ControlMenu1_sec table tr td:nth-of-type(10)")
                 actions.move_to_element(target).perform()
@@ -268,7 +276,7 @@ class botService:
         with webdriver.Chrome(executable_path=self.pathDriver, chrome_options=self.driverOptions) as driver:
             try:
                 self.login(driver)
-                sleep(5)
+                sleep(20)
                 actions = ActionChains(driver)
                 target= driver.find_element_by_css_selector("div#ControlMenu1_sec table tr td:nth-of-type(10)")
                 actions.move_to_element(target).perform()
